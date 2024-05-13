@@ -1,0 +1,395 @@
+@media (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        margin: 0 auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    /*HOME*/
+
+    .header_home {
+        background: url(../images/home-dec-adaptive.png);
+        background-repeat: no-repeat;
+    }
+
+    .main-header {
+        flex-direction: column-reverse;
+        padding-top: 48px;
+        padding-bottom: 100px;
+        gap: 48px;
+    
+        &__text {
+            max-width: 573px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            h1 {
+                font-size: 48px;
+                line-height: 56px;
+                letter-spacing: -0.369px;
+                text-align: center;
+            }
+    
+            p {
+                padding-left: 0px;
+            }
+    
+        }
+    
+        &__phone {
+            margin-right: 0px;
+    
+            img {
+                width: 159px;
+            }
+    
+            &-notification {
+                gap: 16px;
+                top: 60px;
+                left: 14px;
+    
+                &_time {
+                    font-size: 24px;
+                }
+    
+                &_info {
+                    width: 132px;
+                    height: 54px;
+                    padding: 9px;
+    
+                    &-name {
+                        font-size: 7px;
+                        font-weight: 700;
+                        line-height: normal;
+    
+                        span {
+                            padding-left: 60px;
+                        }
+                    }
+    
+                    &-text {
+                        color: $main-color;
+                        font-size: 7px;
+                        line-height: normal;
+                        padding-top: 3px;
+    
+                        span {
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .partners {
+        background-image: url(../images/home-dec-partners-adaptive.png);
+        background-repeat: no-repeat;
+        margin-bottom: 100px;
+    
+        &__about {
+            gap: 64px;
+            padding-top: 88px;
+            padding-bottom: 88px;
+            flex-direction: column-reverse;
+    
+            &-info {
+                max-width: 456px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .implement {
+        gap: 48px;
+        padding-bottom: 0px;
+        flex-direction: column;
+    
+        &__code {
+            max-width: 392px;
+    
+            img {
+                width: 392px;
+            }
+    
+            code {
+                font-size: 11px;
+                line-height: 18px;
+                top: 57px;
+                left: 217px;
+            }
+        }
+    
+        &__benefits {
+            max-width: 573px;
+            align-items: center;
+    
+            p {
+                text-align: center;
+            }
+        }
+    }
+
+    .ui-ux-decoration {
+        background-image: none;
+    }
+
+    .ui-ux {
+        align-items: center;
+        gap: 48px;
+        flex-direction: column-reverse;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
+        &__photo {
+            gap: 25px;
+
+            &-payments {
+    
+                &_info {
+                    gap: 15px;
+                    top: 29px;
+                    left: 19px;
+
+                    img {
+                        width: 54px;
+                        height: 15px;
+                    }
+    
+                    &-total {
+                        width: 130px;
+                        height: 36px;
+                        padding: 12px 9px;
+    
+                        &_header {
+                            font-size: 8px;
+                            line-height: 10px;
+                        }
+    
+                        &_price {
+                            font-size: 12px;
+                        }
+                    }
+    
+                    &-items {
+                        gap: 5px;
+                        height: 197px;
+                        overflow: hidden;
+
+                        .item {
+                            width: 130px;
+                            height: 25px;
+                            padding: 8px 10px;
+                        }
+                        .item > p {
+                            font-size: 8px;
+                            line-height: 10px;
+                        }
+                        
+                        .item > p + p {
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+    
+            &-process {
+    
+                &_info {
+                    width: 113px;
+                    height: 131px;
+                    padding: 22px 11px;
+                    gap: 9px;
+                    top: 90px;
+                    left: 28px;
+
+                    img {
+                        width: 36px;
+                        height: 36px;
+                    }
+    
+                    p {
+                        font-size: 8px;
+                        line-height: 10px;
+                    }
+    
+                    button {
+                        font-size: 8px;
+                        padding: 6px 28px;
+                        top: 120px;
+                        max-width: 85px;
+                    }
+                }
+            }
+        }
+    }
+
+    .ui-ux__photo-payments_img,
+    .ui-ux__photo-process_img {
+        width: 169px;
+    }
+    
+    .advantages {
+        padding-top: 0px;
+    
+        &__info {
+            max-width: 223px;
+    
+            p {
+                width: 223px;
+            }
+        }
+    }
+    
+    .describe {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+    
+        h2 {
+            color: $main-color;
+            font-family: 'DM Serif Display', serif;
+        }
+    }
+    
+    .describe form {
+        margin-bottom: 0;
+    }
+    
+    /*PRICING*/
+    
+    .header_pages {
+        background: url(../images/pages-decoration-adaptive.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+    
+    .pricing_header {
+        margin-top: 80px;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+    
+    .pricing {
+        gap: 10px;
+    
+        &__info {
+            width: 223px;
+    
+            &-name {
+                text-align: center;
+                font-size: 24px;
+                letter-spacing: -0.185px;
+                margin-bottom: 13px;
+            }
+    
+            &-about {
+                text-align: center;
+                margin-bottom: 19px;
+            }
+    
+            &-amount {
+                margin-bottom: 21px;
+                text-align: center;
+                font-size: 48px;
+                letter-spacing: -0.369px;
+            }
+    
+            &-benefits {
+                padding: 24px 10px;
+            }
+        }
+    }
+    
+    /*ABOUT*/
+    
+    .about_header {
+        font-size: 48px;
+        letter-spacing: -0.369px;
+        max-width: 573px;
+        margin-top: 80px;
+        padding-left: 0px;
+        margin-bottom: 54px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .preference {
+    
+        &__info {
+            padding-left: 0px;
+            padding-right: 0px;
+    
+            p {
+                max-width: 456px;
+            }
+        }
+    }
+    
+    .pref {
+        margin-bottom: 64px;
+    }
+    
+    .numbers {
+        padding-top: 94px;
+        margin-top: 0px;
+        margin-bottom: 64px;
+        background: none;
+
+        &__img {
+            width: 100%;
+        }
+    
+        &__about {
+            gap: 10px;
+            margin-top: 64px;
+        }
+    }
+    
+    /*CONTACT*/
+
+    .contact_header {
+        font-size: 48px;
+        letter-spacing: -0.369px;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 54px;
+        padding: 0px 75px;
+    }
+    
+    .contact {
+        flex-direction: column;
+        gap: 64px;
+        align-items: center;
+    
+        &__form {
+            gap: 24px;
+        }
+    
+        &__company {
+            margin-top: 0px;
+            align-items: center;
+    
+            &-text {
+                text-align: center;
+            }
+    
+            &-logo {
+                gap: 55px;
+            }
+        }
+    }
+}

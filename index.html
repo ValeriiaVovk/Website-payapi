@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <header class="header_home">
+
+        <section class="container header">
+            <div class="header__navigation">
+                <a href="./index.html" class="header__logo"><img src="./images/icons/logo-header.svg" alt="payapi logo"></a>
+                <nav>
+                    <ul>
+                        <li><a href="./pricing.html" class="header__navigation-link">Pricing</a></li>
+                        <li><a href="./about.html" class="header__navigation-link">About</a></li>
+                        <li><a href="./contact.html" class="header__navigation-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <button class="header__button">Schedule a Demo</button>
+            <div class="burger-menu">
+                <span></span>
+            </div>
+            
+        </section>
+
+        <section class="container main-header">
+            <div class="main-header__text">
+                <h1>Start building with our APIs for absolutely free.</h1>
+                <form action="#" class="form">
+                    <input type="email" name="email" id="email" placeholder="Enter email address" class="form__input-email">
+                    <button type="submit" class="form__button">Schedule a Demo</button>
+                </form>
+                <p>Have any questions? <a href="./contact.html"><span>Contact Us</span></a></p>
+            </div>
+            <div class="main-header__phone">
+                <img src="./images/home/iPhone-X-Mockup.png" alt="phone">
+                <div class="main-header__phone-notification">
+                    <p class="main-header__phone-notification_time"></p>
+                    <div class="main-header__phone-notification_info">
+                        <p class="main-header__phone-notification_info-name">PayAPI<span>Just Now</span></p>
+                        <p class="main-header__phone-notification_info-text">The payment has been processed. The total amount deducted from your account is <span>US $104.90.</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+
+        <section class="partners">
+            <div class="container partners__about">
+                <div class="partners__about-info">
+                    <h2>Who we work with</h2>
+                    <p>Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users.</p>
+                    <button>About Us</button>
+                </div>
+                <div class="partners__about-logo">
+                    <img src="./images/icons/tesla.svg" alt="tesla logo" class="partners__about-logo_name">
+                    <img src="./images/icons/microsoft.svg" alt="microsoft logo" class="partners__about-logo_name">
+                    <img src="./images/icons/hp.svg" alt="hp logo" class="partners__about-logo_name">
+                    <img src="./images/icons/oracle.svg" alt="oracle logo" class="partners__about-logo_name">
+                    <img src="./images/icons/google.svg" alt="google logo" class="partners__about-logo_name">
+                    <img src="./images/icons/nvidia.svg" alt="nvidia logo" class="partners__about-logo_name">
+                </div>
+            </div>
+        </section>
+
+        <section class="container implement">
+            <div class="implement__code">
+                <img src="./images/home/code-photo.svg" alt="code">
+                
+                <code>
+                    &lt;form id="form-id" method="GET"&gt; &lt;/form&gt; <br>
+                    &lt;script <br>
+                        &nbsp;src="https://loremipsum.com/api.js" <br>
+                        &nbsp;data-client-name="Your Company's Name" <br>
+                        &nbsp;data-form-id="form-id" <br>
+                        &nbsp;data-key="test_key" <br>
+                        &nbsp;data-product="transactions" <br>
+                        &nbsp;data-env="sandbox"&gt; <br>
+                    &lt;/script&gt; 
+                </code>
+                
+            </div>
+            <section class="implement__benefits">
+                <h2>Easy to implement</h2>
+                <p>Our API comes with just a few lines of code. You’ll be up and running in no time. We built our documentation page to integrate payments functionality with ease.</p>
+            </section>
+        </section>
+
+        <section class="ui-ux-decoration">
+            <div class="container ui-ux">
+                <div class="implement__benefits">
+                    <h2>Simple UI &#38; UX</h2>
+                    <p>Our pre-built form is easy to integrate in your app or website’s checkout flow and designed to optimize conversion. </p>
+                </div>
+                <div class="ui-ux__photo">
+                    <div class="ui-ux__photo-payments">
+                        <img src="./images/home/iPhone-X-third.png" alt="iphone" class="ui-ux__photo-payments_img">
+                        <div class="ui-ux__photo-payments_info">
+                            <img src="./images/icons/logo-small.png" alt="payapi logo">
+                            <div class="ui-ux__photo-payments_info-total">
+                                <p class="ui-ux__photo-payments_info-total_header">Total payment</p>
+                                <p class="ui-ux__photo-payments_info-total_price">$9204</p>
+                            </div>
+                            <div class="ui-ux__photo-payments_info-items">
+                                <div class="item">
+                                    <p>Item #001</p>
+                                    <p>$29</p>
+                                </div>
+                                <div class="item">
+                                    <p>Item #002</p>
+                                    <p>$105</p>
+                                </div>
+                                <div class="item">
+                                    <p>Item #003</p>
+                                    <p>$810</p>
+                                </div>
+                                <div class="item">
+                                    <p>Item #004</p>
+                                    <p>$1044</p>
+                                </div>
+                                <div class="item">
+                                    <p>Item #005</p>
+                                    <p>$40</p>
+                                </div>
+                                <div class="item">
+                                    <p>Item #006</p>
+                                    <p>$2566</p>
+                                </div>
+                                <div class="item">
+                                    <p>Item #007</p>
+                                    <p>$4195</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui-ux__photo-process">
+                        <img src="./images/home/iPhone-X-second.png" alt="iphone" class="ui-ux__photo-process_img">
+                        <div class="ui-ux__photo-process_info">
+                            <img src="./images/home/success.png" alt="success">
+                            <p>Payment of <span>$9204</span> is completed and processed successfully</p>
+                            <button>Dismiss</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container advantages">
+            <article class="advantages__info">
+                <img src="./images/home/personal-finance.svg" alt="personal finance">
+                <h4>Personal Finances</h4>
+                <p>Consolidate financial data from multiple sources and categorize transactions up to 2 years of history. Analyze reports to reconcile activities in your account. </p>
+            </article>
+            <article class="advantages__info">
+                <img src="./images/home/banking.svg" alt="banking">
+                <h4>Banking &#38; Coverage</h4>
+                <p>With our platform, you can speed up account onboarding and support ongoing payments for checking, savings, credit card, and brokerage accounts.</p>
+            </article>
+            <article class="advantages__info">
+                <img src="./images/home/payments.svg" alt="payments">
+                <h4>Consumer Payments</h4>
+                <p>It’s easier to set up secure bank payments with us through a flow designed with the user experience in mind. Customers could instantly authenticate their account.</p>
+            </article>
+        </section>
+
+        <section class="container describe">
+            <h2>Ready to start?</h2>
+            <form action="#" class="form">
+                <input type="email" name="email" id="emails" placeholder="Enter email address" class="form__input-email">
+                <button type="submit" class="form__button">Schedule a Demo</button>
+            </form>
+        </section>
+
+        
+
+    </main>
+
+    <footer>
+        <section class="container footer">
+            <div class="footer__link">
+                <a href="./index.html" class="header__logo"><img src="./images/icons/logo-footer.png" alt="payapi footer"></a>
+                <article>
+                    <ul>
+                        <li><a href="./pricing.html" class="header__navigation-link footer__link-footer">Pricing</a></li>
+                        <li><a href="./about.html" class="header__navigation-link footer__link-footer">About</a></li>
+                        <li><a href="./contact.html" class="header__navigation-link footer__link-footer">Contact</a></li>
+                    </ul>
+                </article>
+            </div>
+            
+            <div class="footer__social-media">
+                <a href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Path" d="M22.675 0H1.325C0.593 0 0 0.593 0 1.325V22.676C0 23.407 0.593 24 1.325 24H12.82V14.706H9.692V11.084H12.82V8.413C12.82 5.313 14.713 3.625 17.479 3.625C18.804 3.625 19.942 3.724 20.274 3.768V7.008L18.356 7.009C16.852 7.009 16.561 7.724 16.561 8.772V11.085H20.148L19.681 14.707H16.561V24H22.677C23.407 24 24 23.407 24 22.675V1.325C24 0.593 23.407 0 22.675 0Z" fill="#FBFCFE"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Paths" d="M24 2.55705C23.117 2.94905 22.168 3.21305 21.172 3.33205C22.189 2.72305 22.97 1.75805 23.337 0.608047C22.386 1.17205 21.332 1.58205 20.21 1.80305C19.313 0.846047 18.032 0.248047 16.616 0.248047C13.437 0.248047 11.101 3.21405 11.819 6.29305C7.728 6.08805 4.1 4.12805 1.671 1.14905C0.381 3.36205 1.002 6.25705 3.194 7.72305C2.388 7.69705 1.628 7.47605 0.965 7.10705C0.911 9.38805 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10605C22.505 4.41105 23.34 3.54405 24 2.55705Z" fill="#FBFCFE"/>
+                    </svg>
+                </a>
+                <a href="#">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M2.4 0H21.6C22.92 0 24 1.08 24 2.4V21.6C24 22.92 22.92 24 21.6 24H2.4C1.08 24 0 22.92 0 21.6V2.4C0 1.08 1.08 0 2.4 0ZM3.6 20.4H7.2V9.6H3.6V20.4ZM5.4 7.56C4.2 7.56 3.24 6.6 3.24 5.4C3.24 4.2 4.2 3.24 5.4 3.24C6.6 3.24 7.56 4.2 7.56 5.4C7.56 6.6 6.6 7.56 5.4 7.56ZM16.8 20.4H20.4V13.56C20.4 11.28 18.48 9.36 16.2 9.36C15.12 9.36 13.8 10.08 13.2 11.04V9.6H9.6V20.4H13.2V14.04C13.2 13.08 14.04 12.24 15 12.24C15.96 12.24 16.8 13.08 16.8 14.04V20.4Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+    </footer>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
